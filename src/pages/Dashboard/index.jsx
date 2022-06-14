@@ -1,6 +1,13 @@
+import { Form, Title } from './styles';
 
 export function Dashboard() {
    return(
-      <h1>My Dashboard</h1>
+      <>
+         <Title>Buscar Repositório</Title>
+         <Form>
+            <input type="text" placeholder='Nome do usuário'/>
+            <button type='submit'>Buscar</button>
+         </Form>
+      </>
       )
    }

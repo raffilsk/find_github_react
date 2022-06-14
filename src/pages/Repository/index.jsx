@@ -1,5 +1,7 @@
+import { Title } from "./styles"
+
 export function Repository(){
    return(
-      <h1>My Repository</h1>
+      <Title>My Repository</Title>
    )
 }
