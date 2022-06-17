@@ -38,5 +38,9 @@ export const Form = styled.form`
          filter: brightness(0.9);
       }
    }
-
 `;
+
+export const Error = styled.span`
+   color: red;
+   display: block;
+`

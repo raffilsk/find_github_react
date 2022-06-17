@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 import { Dashboard } from "../pages/Dashboard";
-import { Repository } from "../pages/Repository";
+import { User } from "../pages/User";
 
 export function Router(){
    return(
       <Routes>
          <Route path="/" element={ <Dashboard />} />
-         <Route path="/repositorios" element={ <Repository />} />
+         <Route path="/users/:user" element={ <User />} />
       </Routes>
    )
 }
